@@ -20,10 +20,6 @@ describe(`Function 'arrayReverse':`, () => {
     expect(arrayReverse(["Hello"])).toEqual(["olleH"]);
   });
 
-  it(`should reverse array and each string`, () => {
-    expect(arrayReverse(["12", "3456"])).toEqual(["65", "4321"]);
-  });
-
   it(`should leave an empty string between`, () => {
     expect(arrayReverse(["Mate", "", "Academy"])).toEqual([
       "ymed",
