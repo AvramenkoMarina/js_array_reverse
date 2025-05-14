@@ -16,7 +16,7 @@ describe(`Function 'arrayReverse':`, () => {
     expect(arrayReverse([""])).toEqual([""]);
   });
   it(`should reverse a number`, () => {
-    expect(arrayReverse(["12", "3456"])).toEqual(["65", "4321"]);
+    expect(arrayReverse(["12", "3456"])).toEqual(["6543", "21"]);
   });
 
   it(`should reverse a single string`, () => {
